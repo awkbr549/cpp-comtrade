@@ -15,8 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cpp-comtrade.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="comtrade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="comtrade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vectorMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

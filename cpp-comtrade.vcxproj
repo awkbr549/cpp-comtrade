@@ -127,7 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="cpp-comtrade.cpp" />
+    <ClCompile Include="comtrade.cpp" />
+    <ClCompile Include="error.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="comtrade.h" />
+    <ClInclude Include="error.h" />
+    <ClInclude Include="types.h" />
+    <ClInclude Include="utils.h" />
+    <ClInclude Include="vectorMap.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
